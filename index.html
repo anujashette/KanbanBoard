@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Kanban Board</title>
+</head>
+
+<body>
+    <!-- Toolbox Navbar -->
+    <div class="toolbox-container">
+        <div class="logo">
+            <h3>
+                <span class="color-light-orange">K</span>
+                <span class="color-turquoise">a</span>
+                <span class="color-light-blue">N</span>
+                <span class="color-earth-yellow">B</span>
+                <span class="color-light-orange">a</span>
+                <span class="color-turquoise">N</span>
+                <span class="board">Board</span>
+            </h3>
+        </div>
+        <div class="toolbox">
+            <!-- Filter Colors -->
+            <div class="filter-container">
+                <div class="bgcolor-light-orange filter-color"></div>
+                <div class="bgcolor-light-blue filter-color"></div>
+                <div class="bgcolor-earth-yellow filter-color"></div>
+                <div class="bgcolor-turquoise filter-color"></div>
+            </div>
+    
+            <!-- Action Buttons -->
+            <div class="action-container">
+                <div><i class="fa-solid fa-plus"></i></div>
+                <div><i class="fa-solid fa-trash"></i></div>
+            </div>
+        </div>
+        
+        
+    </div>
+
+    <!-- Task Ticket -->
+    <div class="bgcolor-dark-black ticket-contianer">
+        <div class="bgcolor-light-orange ticket-status"></div>
+        <div class="bgcolor-light-black ticket-id"><h3>ABCDD</h3></div>
+        <div class="bgcolor-light-black ticket-desc">
+            <p>Anuja Shette</p>
+        </div>
+    </div>
+
+    <!-- Modal Popup Add Ticket -->
+     <div class="modal-container">
+        <textarea name="desc" id="desc" class="text-area"></textarea>
+        <div class="color-picker">
+            <div class="bgcolor-light-orange filter-color"></div>
+            <div class="bgcolor-light-blue filter-color"></div>
+            <div class="bgcolor-earth-yellow filter-color"></div>
+            <div class="bgcolor-turquoise filter-color"></div>
+        </div>
+     </div>
+
+    <script src="./script.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</body>
+
+</html>
