@@ -57,4 +57,4 @@ allPriorityColors.forEach(function(color) {
         let selectColor = e.target.classList[0]
         ticketColor = selectColor
     })
-});
+}); 
