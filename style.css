@@ -60,7 +60,7 @@ textarea {
 
 .filter-container {
   width: 20rem;
-  height: 2rem;
+  height: 2.3rem;
   background-color: #42474f;
   display: flex;
   justify-content: space-evenly;
@@ -69,7 +69,7 @@ textarea {
 
 .action-container {
   width: 5rem;
-  height: 2rem;
+  height: 2.3rem;
   background-color: #42474f;
   display: flex;
   align-items: center;
@@ -77,8 +77,8 @@ textarea {
 }
 
 .filter-color {
-  width: 2rem;
-  height: 1rem;
+  width: 3rem;
+  height: 1.3rem;
   cursor: pointer;
 }
 
@@ -185,4 +185,8 @@ textarea {
   align-items: center;
   padding: 1rem;
   background-color: #202124;
+}
+
+.active {
+  border: 3px solid white;
 }

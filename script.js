@@ -50,8 +50,11 @@ textArea.addEventListener('keydown', function (e) {
 
 allPriorityColors.forEach(function(color) {
     color.addEventListener('click', function(e) {
+        allPriorityColors.forEach(function(prioityColor) {
+            prioityColor.classList.remove('active')
+        })
+        e.target.classList.add('active')
         let selectColor = e.target.classList[0]
-        // console.log(selectColor);
         ticketColor = selectColor
     })
 });
